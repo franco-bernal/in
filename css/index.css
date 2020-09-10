@@ -79,11 +79,14 @@ body {
 .hero-section {
     width: 100%;
 }
+.block1{
+    margin-top: 50px;
+}
 
 .block1 .columns {
-    margin-top: 50px;
     width: 100%;
 }
+
 
 .block1 img {
     width: 100px;
@@ -102,20 +105,26 @@ body {
 }
 
 .r-cuadros:hover {
+    background-color: rgba(0, 102, 185, 0.404);
+    backdrop-filter: blur(4px);
+    transition: backdrop-filter 1s ease;
     transition: background-color 1s ease;
-    background-color: rgba(0, 63, 145, 0.521);
-   
+    box-shadow: 1px white;
 }
 
 .r-cuadros .columns {
-    height: 200px;
+    height: auto;
     width: 100%;
+}
+.r-cuadros .columns .column{
+    height: 200px;
 }
 
 
 .nota {
     background-color: rgba(0, 0, 0, 0.753);
-    height: auto;
+    height:200px !important;
+    margin-bottom: 0px !important;
 }
 
 .nota div {
@@ -155,13 +164,24 @@ body {
         height: 100px;
         margin-top: 10px;
     }
-    
+
 }
 
 /*/ Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- /*/
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+
+    .block1 .columns {
+        margin-bottom: 50px !important;
+    }
+    .nota {
+        background-color: rgba(0, 0, 0, 0.753);
+        height:70px !important;
+        margin-bottom: 0px !important;
+    }
+    
+}
 
 /*/ Escritorios muy anchos
    ------------------------------------------------------------------------- */
