@@ -1,0 +1,174 @@
+.m {
+    border: 1px solid rgba(128, 255, 0, 0.521);
+}
+.m-t{
+    border: 1px solid rgba(212, 224, 199, 0);
+
+}
+
+.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /*
+     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    */
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-head {
+    height: 55px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #00a1a173;
+    backdrop-filter: blur(0px);
+}
+
+.titulo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 1 !important;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 3em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold !important;
+    color: white;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.hero-body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.columns {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
+
+.column {
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.block1 .columns {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.block1 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20%;
+}
+
+.block1 .column {}
+
+.r-cuadros {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.096);
+    width: 90%;
+    margin: 0 auto;
+    backdrop-filter: blur(0px);
+}
+
+.r-cuadros:hover {
+    background-color: rgba(0, 63, 145, 0.39);
+    transition: background-color 1s ease;
+    font-size: 30px;
+    transition: font-size 1s ease;
+}
+
+.r-cuadros .columns {
+    height: 200px;
+    width: 100%;
+}
+
+
+.nota {
+    background-color: rgba(0, 0, 0, 0.753);
+    height: auto;
+}
+
+.nota div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold !important;
+}
+
+.nota div h1 {
+    text-align: center;
+    align-content: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.nota div p{
+    margin-left: 5px;
+}
+ 
+
+/* The element to apply the animation to */
+
+/*Móviles en horizontal o tablets en vertical*/
+
+@media (max-width: 768px) {
+    .hero-body {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .block1 img {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    
+}
+
+/*/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- /*/
+
+@media (max-width: 1024px) {}
+
+/*/ Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1300px) {}
+
+@media(max-width:370px) {}
