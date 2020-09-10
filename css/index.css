@@ -88,7 +88,7 @@ body {
 .block1 img {
     width: 100px;
     height: 100px;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
 .block1 .column {}
@@ -102,10 +102,9 @@ body {
 }
 
 .r-cuadros:hover {
-    background-color: rgba(0, 63, 145, 0.39);
     transition: background-color 1s ease;
-    font-size: 30px;
-    transition: font-size 1s ease;
+    background-color: rgba(0, 63, 145, 0.521);
+   
 }
 
 .r-cuadros .columns {
