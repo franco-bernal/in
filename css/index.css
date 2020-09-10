@@ -1,9 +1,9 @@
 .m {
     border: 1px solid rgba(128, 255, 0, 0.521);
 }
-.m-t{
-    border: 1px solid rgba(212, 224, 199, 0);
 
+.m-t {
+    border: 1px solid rgba(212, 224, 199, 0);
 }
 
 .centrar {
@@ -21,6 +21,7 @@ body {
     */
     padding: 0px;
     margin: 0px;
+    background-color: black;
 }
 
 .hero {
@@ -32,7 +33,7 @@ body {
     height: 55px;
     width: 100%;
     opacity: 0.5;
-    background-color: #00a1a173;
+    background-color: #29ffffab;
     backdrop-filter: blur(0px);
 }
 
@@ -54,10 +55,9 @@ body {
 }
 
 .hero-body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding: 0px;
-    background-color: black;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,14 +79,14 @@ body {
 .hero-section {
     width: 100%;
 }
-.block1{
+
+.block1 {
     margin-top: 50px;
 }
 
 .block1 .columns {
     width: 100%;
 }
-
 
 .block1 img {
     width: 100px;
@@ -116,14 +116,14 @@ body {
     height: auto;
     width: 100%;
 }
-.r-cuadros .columns .column{
+
+.r-cuadros .columns .column {
     height: 200px;
 }
 
-
 .nota {
     background-color: rgba(0, 0, 0, 0.753);
-    height:200px !important;
+    height: 200px !important;
     margin-bottom: 0px !important;
 }
 
@@ -142,10 +142,10 @@ body {
     margin-top: 5px;
     font-size: 20px;
 }
-.nota div p{
+
+.nota div p {
     margin-left: 5px;
 }
- 
 
 /* The element to apply the animation to */
 
@@ -153,34 +153,31 @@ body {
 
 @media (max-width: 768px) {
     .hero-body {
+        height: 100%;
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-
     .block1 img {
         width: 100px;
         height: 100px;
         margin-top: 50px;
     }
-
 }
 
 /*/ Tablets en horizonal y escritorios normales
    ------------------------------------------------------------------------- /*/
 
 @media (max-width: 1024px) {
-
     .block1 .columns {
         margin-bottom: 50px !important;
     }
     .nota {
         background-color: rgba(0, 0, 0, 0.753);
-        height:70px !important;
+        height: 70px !important;
         margin-bottom: 0px !important;
     }
-    
 }
 
 /*/ Escritorios muy anchos
