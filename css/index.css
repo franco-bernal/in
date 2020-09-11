@@ -154,7 +154,7 @@ body {
 @media (max-width: 768px) {
     .hero-body {
         height: 100%;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-2.jpg);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(https://img.freepik.com/vector-gratis/minimo-fondo-blanco-gris-lineas-onduladas_1017-25099.jpg?size=626&ext=jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
