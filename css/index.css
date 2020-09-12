@@ -5,7 +5,12 @@
 .m-t {
     border: 1px solid rgba(212, 224, 199, 0);
 }
-
+html{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .centrar {
     display: block;
     margin-left: auto;
