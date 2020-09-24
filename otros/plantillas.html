@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../css/index.css">
 
     <style>
-        h1{
+        h1 {
             color: white;
             font-weight: 600;
-          
+
         }
-        p{
+
+        p {
             color: white;
         }
     </style>
@@ -32,7 +33,7 @@
                             <h1 class="">Mis notas</h1>
                         </div>
                     </a>
-        
+
                 </div>
                 <div class="hero-section">
 
@@ -88,16 +89,7 @@
                     <!--TEXTAREA-->
 
                     <textarea disabled cols="30" rows="10">
-                        html{
-                            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(63, 0, 0, 0.233)), url(../img/wall-1.jpg);
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: fixed;
-                        }
-                        .centrar {
-                            display: block;
-                            margin-left: auto;
-                            margin-right: auto;
+                        html {
                         }
                         
                         body {
@@ -116,31 +108,47 @@
                             width: 100%;
                         }
                         
-                        .hero-head {
-                            height: 55px;
-                            width: 100%;
-                            opacity: 0.5;
-                            background-color: #29ffffab;
-                            backdrop-filter: blur(0px);
-                            margin-bottom: 50px;
-                        }
+                        .hero-head {}
+                        
                         .hero-body {
-                            height: 100vh;
+                            height: auto;
                             width: 100%;
                             padding: 0px;
                         }
+                        
                         .columns {
                             padding: 0px;
                             margin: 0px;
                             height: auto;
                             width: auto;
                         }
+                        
                         .column {
                             padding: 0px;
                             margin: 0px;
+                            height: auto;
                         }
+                        
                         .hero-section {
-                            width: 100%;
+                            width: auto;
+                            height: auto;
+                            background-color: seagreen;
+                        }
+                        
+                        .centrar {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        
+                        .centrar-full {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        .m {
+                            border: 3px solid red;
                         }
                     </textarea>
                     <!--TEXTAREA-->
@@ -148,7 +156,7 @@
 
                     <h1>tamaños de mediaquery´s @media </h1>
                     <textarea disabled cols="30" rows="10">
-                        
+
 @media (max-width: 768px) {
 }
 
@@ -166,7 +174,47 @@ Otros   ------------------------------------------------------------------------
 @media(max-width:370px) {}
                     </textarea>
 
+                    <hr>
+                    <h1>Columns</h1>
+                    <textarea name="" id="" cols="30" rows="10">
+ <div class="columns is-gapless  is-multiline">
+                    <div class="column letras  is-10-fullhd is-10-desktop  is-12-tablet  is-12-mobile ">
+                      
+                    </div>
+                    <div class="column naveg is-2-fullhd is-2-desktop  is-12-tablet  is-12-mobile ">
+                      
+                    </div>
+                </div>
+                    </textarea>
 
+
+                    <hr>
+                    <hr>
+                    <h1>Notas de diseño</h1>
+                    <p>para posicionar un objeto absolute dentro de un div <br>
+                        es necesario que el div padre esté en position:relative;
+                        así se puede posicionar con left:0 por ejemplo. </p>
+                    <p>para centrar con absolute sólo se necesita que tenga</p>
+                    <textarea name="" id="" cols="30" rows="10">
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    margin: auto;
+                  </textarea>
+                    <p>y otra forma es con flex</p>
+                    <textarea name="" id="" cols="30" rows="10">
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  </textarea>
+                    <p>La forma más simple</p>
+                    <textarea name="" id="" cols="30" rows="10">
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                  </textarea>
+                  <p>acortado  margin: 0 auto;</p>
                 </div>
             </div>
         </div>
